@@ -20,7 +20,57 @@
 }
 
 body {
-  background: var(--background);
+  background: transparent;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.animate-twinkle {
+  animation: twinkle 2s infinite ease-in-out;
+}
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+.animate-cloud {
+  animation: cloudMove linear infinite;
+}
+
+@keyframes sunriseAnim {
+  0% {
+    transform: translate(-50%, 80%);
+  }
+  100% {
+    transform: translate(-50%, 0%);
+  }
+}
+.animate-sunrise {
+  animation: sunriseAnim 7s ease-out forwards;
+}
+
+@keyframes sunsetAnim {
+  0% {
+    transform: translate(-50%, 0%);
+  }
+  100% {
+    transform: translate(-50%, 80%);
+  }
+}
+.animate-sunset {
+  animation: sunsetAnim 8s ease-in forwards;
 }
