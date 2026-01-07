@@ -83,7 +83,7 @@ const works = [
   {
     title: "Website & Social Media Developer",
     desc: "OK OCE Indonesia",
-    periode: "2023 – Sekarang",
+    periode: "Mar 2024 – Jun 2024",
     portfolioUrl: "https://github.com/PanjiKumbara/OK-OCE-Mineral",
     hasil: [
       "Membangun dan mengembangkan website OK OCE Mineral.",
